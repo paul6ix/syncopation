@@ -33,7 +33,10 @@ $(window).load(function() {
 			$.waypoints('refresh');
 		}
 	});
-
+	/* preloadder */
+	jQuery("#page-loader .page-loader-inner").delay(1e3).fadeOut(500, function () {
+		jQuery("#page-loader").fadeOut(500)
+	});
 	/* ------------------------------------------------------------------
 	 
 	 ISOTOPE
