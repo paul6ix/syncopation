@@ -39,6 +39,14 @@ font-family: 'Abel', sans-serif;
 	pointer-events: none;
 }
 
+html {
+	background: url(../bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 #nprogress .bar {
 	background: #29d;
 	position: fixed;
@@ -426,7 +434,7 @@ nav ul li a:hover, nav ul li a:focus {
     height: 100%;
 	overflow: hidden;
 	position: relative;
-	background-image: url(../images/dot.png), url(../images/hero.jpg);
+	background-image: url(../images/dot.png), url(../images/hero2.jpg);
 	background-repeat: repeat, no-repeat;
 	background-position: center center;
     background-size: auto auto, cover;
